@@ -16,6 +16,10 @@
 }
 
 @media only screen and (max-width: 3500px){
+ #calculate-rate{
+    margin-top: 20px;
+}
+
   body {
     font-size: small;
     line-height: 1.4;
