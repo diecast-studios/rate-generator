@@ -4,19 +4,49 @@
   float: left;
   margin: 20px;
 }
+#nutrition { 
+  width: 1000px; 
+  margin: 0 auto; 
+}
 
 body {
   font-size: small;
   line-height: 1.4;
+  background-position: center;
+  background-image: url("../img/CerealFinal.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden
+}
+
+
+
+#copy-center{
+  margin-top: 50px;
+  margin-left: 600px;
+  color: #ffffff;
+  position: fixed;
+  column-count: 1;
+  column-width: 50px;
+  max-width: 600px;
+  float: center;
 }
 
 p {
   margin: 0;
 }
 
+table, tr, td, th {
+  background: #ffffff;
+}
 .performance-facts {
+  transform: scale(0.7);
   border: 1px solid black;
+  background: #ffffff;
   margin: 20px;
+  margin-top: -175px;
+  margin-left: -350px;
   float: left;
   width: 400px;
   padding: 0.5rem;
@@ -35,9 +65,11 @@ p {
   border-bottom: 10px solid black;
   padding: 0 0 0.25rem 0;
   margin: 0 0 0.5rem 0;
+  background: #ffffff;
 }
 .performance-facts__header p {
   margin: 0;
+  background: #ffffff;
 }
 
 .performance-facts__table, .performance-facts__table--small, .performance-facts__table--grid {
@@ -45,9 +77,11 @@ p {
 }
 .performance-facts__table thead tr th, .performance-facts__table--small thead tr th, .performance-facts__table--grid thead tr th, .performance-facts__table thead tr td, .performance-facts__table--small thead tr td, .performance-facts__table--grid thead tr td {
   border: 0;
+  background: #ffffff;
 }
 .performance-facts__table th, .performance-facts__table--small th, .performance-facts__table--grid th, .performance-facts__table td, .performance-facts__table--small td, .performance-facts__table--grid td {
   font-weight: normal;
+  background: #ffffff;
   text-align: left;
   padding: 0.25rem 0;
   border-top: 1px solid black;
@@ -66,6 +100,7 @@ p {
 
 .small-info {
   font-size: 0.7rem;
+  background: #ffffff;
 }
 
 .performance-facts__table--small {
