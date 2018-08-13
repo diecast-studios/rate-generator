@@ -13,15 +13,6 @@
   }
 
   
-  .performance-facts {
-    transform: scale(0.7);
-    border: 1px solid black;
-    background: #ffffff;
-    margin: 20px;
-    margin-top: -175px;
-    width: 400px;
-    padding: 0.5rem;
-  }
 }
 
 @media only screen and (max-width: 3500px){
