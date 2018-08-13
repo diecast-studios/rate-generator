@@ -1,7 +1,11 @@
 @charset "UTF-8";
+
+
+
+
 .image {
   width: 250px;
-  float: left;
+
   margin: 20px;
 }
 #nutrition { 
@@ -17,10 +21,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  overflow: hidden
 }
 
 
+  
 
 #copy-center{
   margin-top: 50px;
@@ -46,13 +50,15 @@ table, tr, td, th {
   background: #ffffff;
   margin: 20px;
   margin-top: -175px;
-  margin-left: -350px;
-  float: left;
+  margin-left: 0px;
   width: 400px;
   padding: 0.5rem;
+
 }
 .performance-facts table {
   border-collapse: collapse;
+  float: left;
+
 }
 
 .performance-facts__title {
